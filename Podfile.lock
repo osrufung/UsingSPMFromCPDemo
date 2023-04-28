@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 1c2bca558d3d8d5c5ec6c5bf1b6f2d28f82be58c
+PODS:
+  - FeatureA (1.0.0)
+
+DEPENDENCIES:
+  - FeatureA (from `libraries/FeatureA`)
+
+EXTERNAL SOURCES:
+  FeatureA:
+    :path: libraries/FeatureA
+
+SPEC CHECKSUMS:
+  FeatureA: 55f705a96853c1dc6f6c623b225b183f38eccb2f
+
+PODFILE CHECKSUM: 912fa9ef1a8efeaf2649c0f162142b5c63483d5c
 
 COCOAPODS: 1.12.1

@@ -179,6 +179,7 @@
 				AA8D177A29FBE75500680377 /* Sources */,
 				AA8D177B29FBE75500680377 /* Frameworks */,
 				AA8D177C29FBE75500680377 /* Resources */,
+				14FC760E1392846BB59769DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +217,7 @@
 				AA8D179429FBE75700680377 /* Sources */,
 				AA8D179529FBE75700680377 /* Frameworks */,
 				AA8D179629FBE75700680377 /* Resources */,
+				569E45E828BC8ADB87DF8F1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +299,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		14FC760E1392846BB59769DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UsingSPMFromCPDemo/Pods-UsingSPMFromCPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3396E40AC117B6AA322D87E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +334,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569E45E828BC8ADB87DF8F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests/Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		78905E57610C7BECC769B7C7 /* [CP] Check Pods Manifest.lock */ = {

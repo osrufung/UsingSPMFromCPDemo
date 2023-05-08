@@ -7,7 +7,6 @@
 
 import SwiftUI
 import FeatureA
-import FeatureB
 
 struct ContentView: View {
     var body: some View {

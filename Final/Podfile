@@ -23,3 +23,15 @@ target 'UsingSPMFromCPDemo' do
   end
 
 end
+
+post_integrate do |installer|
+
+  # FeatureB
+  featureB_dependant = ["FeatureA"]
+
+  puts "Injecting FeatureB SPM framework into ..."
+  featureB_dependant.each do |project|
+      puts "  #{project}"
+      `swift run --package-path libraries XcodeSPMI addLocal --project-path Pods/#{project}.xcodeproj --spm-path ../libraries/ --product FeatureB --target-name #{project}`
+  end
+end

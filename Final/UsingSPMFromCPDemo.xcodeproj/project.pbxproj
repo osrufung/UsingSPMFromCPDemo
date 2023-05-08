@@ -10,6 +10,7 @@
 		4373C7B25CCBACC6907C2DC2 /* Pods_UsingSPMFromCPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45387167AC1E635BFEF27C2B /* Pods_UsingSPMFromCPDemo.framework */; };
 		47566D083DDA32BCD945C438 /* Pods_UsingSPMFromCPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAFC85CCC141138F810EE85 /* Pods_UsingSPMFromCPDemoTests.framework */; };
 		8B9183FA4B12DD8CCDD28251 /* Pods_UsingSPMFromCPDemo_UsingSPMFromCPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F7AA41F4B12E6099B5973E /* Pods_UsingSPMFromCPDemo_UsingSPMFromCPDemoUITests.framework */; };
+		AA3934E92A091F1000719058 /* FeatureB in Frameworks */ = {isa = PBXBuildFile; productRef = AA3934E82A091F1000719058 /* FeatureB */; };
 		AA8D178229FBE75500680377 /* UsingSPMFromCPDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D178129FBE75500680377 /* UsingSPMFromCPDemoApp.swift */; };
 		AA8D178429FBE75500680377 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D178329FBE75500680377 /* ContentView.swift */; };
 		AA8D178629FBE75600680377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8D178529FBE75600680377 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3934E92A091F1000719058 /* FeatureB in Frameworks */,
 				4373C7B25CCBACC6907C2DC2 /* Pods_UsingSPMFromCPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +189,9 @@
 			dependencies = (
 			);
 			name = UsingSPMFromCPDemo;
+			packageProductDependencies = (
+				AA3934E82A091F1000719058 /* FeatureB */,
+			);
 			productName = UsingSPMFromCPDemo;
 			productReference = AA8D177E29FBE75500680377 /* UsingSPMFromCPDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -735,6 +740,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA3934E82A091F1000719058 /* FeatureB */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA8D177629FBE75500680377 /* Project object */;
 }

@@ -12,7 +12,6 @@ target 'UsingSPMFromCPDemo' do
 
   # Pods for UsingSPMFromCPDemo
   pod "FeatureA", path: "libraries/FeatureA"
-  pod "FeatureB", path: "libraries/FeatureB"
 
   target 'UsingSPMFromCPDemoTests' do
     inherit! :search_paths

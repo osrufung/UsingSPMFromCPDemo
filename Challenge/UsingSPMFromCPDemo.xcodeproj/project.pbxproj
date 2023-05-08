@@ -45,6 +45,7 @@
 		857EAC69AFEBDB3E886BDEE8 /* Pods-UsingSPMFromCPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingSPMFromCPDemo.release.xcconfig"; path = "Target Support Files/Pods-UsingSPMFromCPDemo/Pods-UsingSPMFromCPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8612A3D4E55739BDF7D054D6 /* Pods-UsingSPMFromCPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingSPMFromCPDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UsingSPMFromCPDemoTests/Pods-UsingSPMFromCPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9855AF84DC69A9F91EA8736A /* Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests/Pods-UsingSPMFromCPDemo-UsingSPMFromCPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA3A16302A09053700C2A134 /* libraries */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = libraries; sourceTree = "<group>"; };
 		AA8D177E29FBE75500680377 /* UsingSPMFromCPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingSPMFromCPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8D178129FBE75500680377 /* UsingSPMFromCPDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingSPMFromCPDemoApp.swift; sourceTree = "<group>"; };
 		AA8D178329FBE75500680377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,13 +107,13 @@
 				8612A3D4E55739BDF7D054D6 /* Pods-UsingSPMFromCPDemoTests.debug.xcconfig */,
 				6253A4F44306E32862A8BFEC /* Pods-UsingSPMFromCPDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		AA8D177529FBE75500680377 = {
 			isa = PBXGroup;
 			children = (
+				AA3A16302A09053700C2A134 /* libraries */,
 				AA8D178029FBE75500680377 /* UsingSPMFromCPDemo */,
 				AA8D179129FBE75700680377 /* UsingSPMFromCPDemoTests */,
 				AA8D179B29FBE75700680377 /* UsingSPMFromCPDemoUITests */,

@@ -1,0 +1,22 @@
+PODS:
+  - FeatureA (1.0.0):
+    - FeatureB
+  - FeatureB (1.0.0)
+
+DEPENDENCIES:
+  - FeatureA (from `libraries/FeatureA`)
+  - FeatureB (from `libraries/FeatureB`)
+
+EXTERNAL SOURCES:
+  FeatureA:
+    :path: libraries/FeatureA
+  FeatureB:
+    :path: libraries/FeatureB
+
+SPEC CHECKSUMS:
+  FeatureA: 26f88f5858ae98133e18c91f60651ca86e0fc633
+  FeatureB: 2281d9574f4bcf109c5cfca292e476848f8b5abb
+
+PODFILE CHECKSUM: 3ca1166a1f2492a54e3f9e00943897fd5ba67ad6
+
+COCOAPODS: 1.12.1

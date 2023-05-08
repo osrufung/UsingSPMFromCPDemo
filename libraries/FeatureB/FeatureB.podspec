@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'FeatureA'
+  s.name                  = 'FeatureB'
   s.version               = '1.0.0'
   s.author                = 'Oswaldo Rubio'
   s.license               = 'commercial'
@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_version         = '5.7'
   s.source_files          = "Sources/**/*.swift"
-  s.dependency "FeatureB"
 end

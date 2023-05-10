@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_version         = '5.7'
   s.source_files          = "Sources/**/*.swift"
+  s.pod_target_xcconfig   = { 'SWIFT_INCLUDE_PATHS' => '$(inherited) ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)'}
 end

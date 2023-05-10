@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "libraries",
     products: [
-        .library(name: "FeatureB", targets: ["FeatureB"]),
+        .library(name: "FeatureB", type: .dynamic, targets: ["FeatureB"]),
         .executable(name: "XcodeSPMI", targets: ["XcodeSPMI"]),
     ],
     dependencies: [
@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.2.2"),
     ],
     targets: [
-        .binaryTarget(name: "FeatureB", path: "../XCFrameworks/FeatureB.xcframework"),
+        .target(name: "FeatureB", path: "FeatureB"),
         .executableTarget(
             name: "XcodeSPMI",
             dependencies: [
